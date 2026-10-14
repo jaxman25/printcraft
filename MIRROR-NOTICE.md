@@ -31,3 +31,14 @@ message — no history was rewritten, squashed or re-attributed.
 
 The upstream license is retained unchanged (Apache License 2.0, see `LICENSE-APACHE`).
 This notice adds attribution only; no upstream authorship was removed.
+
+## Branch protection
+
+The `main` branch of this mirror is protected:
+
+- force pushes are **not allowed**,
+- branch **deletion is not allowed**,
+- the rules are **enforced for administrators** as well.
+
+Ordinary (non-forced) pushes remain permitted, so upstream syncing keeps
+working; any upstream history rewrite would be rejected.
